@@ -24,7 +24,7 @@ logger.fatal( "this is a fatal" , "error" , "hello" , "world" );
 
 DEFAULT_LOGGER instance can be acces through Logger.DEFAULT_LOGGER,
 by default DEFAULT_LOGGER level is ALL if Capabilities.isDebugger is true otherwise level is OFF.
-DEFAULT_LOGGER include a TraceHandler by default and you may use shortcuts to log with it :
+DEFAULT_LOGGER include a TraceHandler by default and you may use top level shortcuts to log with it :
 ```as3
 log( Level.WARN , "warn" );
 debug( "debug" );
