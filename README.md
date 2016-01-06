@@ -34,7 +34,7 @@ error( "error" );
 fatal( "fatal" );
 ```
 
-* **Formatter**
+* **Custom Formatter**
 ```as3
 public class CustomFormatter implements IFormatter
 {
@@ -52,6 +52,7 @@ var traceHandler : TraceHandler = new TraceHandler();
 traceHandler.formatter = new CustomFormatter();
 var logger : Logger = new Logger( Level.ALL );
 logger.addTarget( traceHandler );
+logger.warn( "this is a warning" ) // you'll get from console -> WARN : this is a warning hello world
 ```
 
 * **Custom Handler**
@@ -65,7 +66,6 @@ public class CustomHandler extends AHandler
 		if( isLoggable( record ) )
 		{
 		  var formatted : String = formatter.format( record );
-		  
 		  // then send/write formatted to whatever (file, textfield, xmlsocket, etc...)
 		}
 	}
