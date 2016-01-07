@@ -1,7 +1,5 @@
 package flair.logging
 {
-	import flair.*;
-	import flash.system.Capabilities;
 	import flash.utils.getQualifiedClassName;
 
 	/**
@@ -12,7 +10,7 @@ package flair.logging
 		/**
 		 * @private
 		 */
-		protected var _level : Level = Level.ALL
+		protected var _level : Level = Level.ALL;
 
 		/**
 		 * @inheritDoc

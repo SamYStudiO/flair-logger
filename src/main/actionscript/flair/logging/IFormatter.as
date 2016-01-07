@@ -1,6 +1,5 @@
 package flair.logging
 {
-	import flair.*;
 	/**
 	 * @author SamYStudiO ( contact@samystudio.net )
 	 */
