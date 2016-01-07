@@ -1,5 +1,6 @@
-package flair
+package flair.logging
 {
+	import flair.*;
 	import flash.system.Capabilities;
 	import flash.utils.getQualifiedClassName;
 

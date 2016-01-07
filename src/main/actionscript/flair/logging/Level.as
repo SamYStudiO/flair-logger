@@ -1,4 +1,4 @@
-package flair
+package flair.logging
 {
 	/**
 	 * @author SamYStudiO ( contact@samystudio.net )
